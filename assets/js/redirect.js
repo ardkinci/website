@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (timeLeft > 0) {
                 document.getElementById('ui-subtitle').innerText = "REDIRECTING";
-                countdownEl.innerText = `You will be automatically redirected within <b>${timeLeft}</b> seconds.`;
+                countdownEl.innerText = `You will be automatically redirected within ${timeLeft} seconds.`;
 
                 const timer = setInterval(() => {
                     timeLeft--;
