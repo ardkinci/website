@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const uiContainer = document.getElementById('redirect-ui');
     const errorContainer = document.getElementById('error-404');
+    document.title = "404 - Not Found"; 
 
     // no slug
     if (!slug) {
@@ -25,6 +26,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             errorContainer.style.display = 'flex';
             return;
         }
+        
+        if (data.auto_redirect && data.delay_ms === 0) {
+    document.title = "Redirecting...";
+    window.location.replace(data.target_url);
+    return;
+}
 
         // fill the ui
         uiContainer.style.display = 'flex';
