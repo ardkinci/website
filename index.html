@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Arda Akıncı</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
     <div class="noise-overlay"></div>
-
     <div class="mesh-bg">
         <div class="blob blob-1"></div>
         <div class="blob blob-2"></div>
@@ -33,35 +33,27 @@
         </div>
 
         <div class="socials">
-            <a href="/gh" target="_blank" class="social-icon">
+            <a href="/gh" target="_blank" class="glass-btn social-icon">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="mailto:arda@akinci.pp.ua" class="social-icon">
+            <a href="mailto:arda@akinci.pp.ua" class="glass-btn social-icon">
                  <i class="fas fa-envelope"></i>
             </a>
-                        <a href="#" class="social-icon">
-            <i class="fas fa-share-alt" id="shareBtn" style="cursor:pointer;"></i></a>
+            <a href="#" class="glass-btn social-icon" id="shareBtn">
+                <i class="fas fa-share-alt"></i>
+            </a>
         </div>
     </div>
 
     <div class="footer">
         <div class="footer-text">&copy; 2026 ARDA AKINCI</div>
         <div class="footer-links">
-            <a href="#">Home</a>
+            <a href="/">Home</a>
             <a href="#">PRIVACY</a>
             <a href="#">ToS</a>
         </div>
     </div>
 
-    <script src="script.js"></script>
-    <script>
-    document.getElementById('shareBtn').onclick = () => {
-  navigator.share({
-    title: 'Arda AKINCI',
-    text: 'Arda AKINCI: ',
-    url: window.location.href
-  });
-};
-</script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
