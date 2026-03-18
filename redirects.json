@@ -1,0 +1,26 @@
+{
+  "gh": {
+    "title": "GitHub",
+    "desc": "ardkinci GitHub Profile",
+    "target_url": "https://github.com/kullaniciadin",
+    "is_active": true,
+    "auto_redirect": true,
+    "delay_ms": 3000
+  },
+  "home": {
+    "title": "Web",
+    "desc": null,
+    "target_url": "/",
+    "is_active": true,
+    "auto_redirect": false,
+    "delay_ms": 0
+  },
+  "test": {
+    "title": "Test URL",
+    "desc": "",
+    "target_url": "",
+    "is_active": false,
+    "auto_redirect": true,
+    "delay_ms": 0
+  }
+}
