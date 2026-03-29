@@ -22,5 +22,13 @@
     "is_active": false,
     "auto_redirect": true,
     "delay_ms": 0
-  }
+  },
+    "din": {
+    "title": null,
+    "desc": null,
+    "target_url": "https://drive.google.com/file/d/1JJdczw9TCeetSZs6wN4wRHD32U6TUBDb/view?pli=1",
+    "is_active": true,
+    "auto_redirect": true,
+    "delay_ms": 0
+  },
 }
